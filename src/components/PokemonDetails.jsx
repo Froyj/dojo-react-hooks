@@ -1,18 +1,18 @@
 import './PokemonDetails.css';
 
-const PokemonDetails = ({ pokemon }) => (
+const PokemonDetails = ({ image, name, types }) => (
   <div className='pokemon-container'>
-    <img src="" alt='' className='pokemon-image' />
+    <img src={image} alt='' className='pokemon-image' />
     <div className='pokemon-header'>
       <h3>
-        {/* mettre ici le nom du pokemon */}
+        {name}
       </h3>
     </div>
     <div className='pokemon-body'>
       <div>
         <h4>Types:</h4>
         <ul>
-          {/* Mettre ici la liste des types du pokemon */}
+          {types.map(t => <li>{t.type.name}</li>)}
         </ul>
       </div>
       <div>

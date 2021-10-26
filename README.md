@@ -10,7 +10,7 @@ Le but est d'utiliser l'api décrite dans la documentation suivante pour recrée
 https://pokeapi.co/docs/v2#pokemon-section
 
 1. Dans un premier temps le but est d'afficher une liste avec les noms de tous les pokemons disponibles
-2. Dans un second temps, lorsque nous aurons la liste des pokemons. Nous devons faire en sorte qu'en cliquant dessus les données d'un pokémon s'affichent
+2. Dans un second temps, lorsque nous aurons la liste des pokemons. Nous devons faire en sorte qu'en cliquant dessus les données d'un pokémon s'affichent via le composant PokemonDetails
 
 
 
