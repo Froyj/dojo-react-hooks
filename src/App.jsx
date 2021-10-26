@@ -1,5 +1,5 @@
-import { useEffect, useState } from 'react';
-import logo from './logo.svg';
+import PokemonDetails from './components/PokemonDetails';
+import { magikarp } from './pokemon';
 import './App.css';
 
 function App() {
@@ -10,6 +10,7 @@ function App() {
         Search pokemon
         <input id='search' type='text' />
       </label>
+      <PokemonDetails pokemon={magikarp} />
     </div>
   );
 }
